@@ -4,7 +4,7 @@ title: Readings
 permalink: /readings/
 ---
 
-I will keep track of my readins here:
+I will keep track of my readings here:
 
 **books**
 
