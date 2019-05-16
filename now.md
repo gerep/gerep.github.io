@@ -18,6 +18,6 @@ Still answering "no" to focus on what is significant.
 
 Practioner of the Stoic philosophy.
 
-Reading the book: [Little Black Book Entrepreneurship Contrarians](https://www.amazon.com/Little-Black-Book-Entrepreneurship-Contrarians/dp/1480576883).
-
 Spending a lot more time with my wife and two kids.
+
+Updated May 16th, 2019.
