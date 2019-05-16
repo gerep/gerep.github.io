@@ -1,0 +1,75 @@
+---
+layout: post
+title: "tar"
+date: 2014-05-21
+categories:
+---
+
+tar is not a compression tool, it simply creates and archive
+
+Creating an archive:
+
+
+```
+tar -cf archive.tar file.txt
+```
+      
+It will create the archive.tar with file.txt inside it. The extension is not mandatory but it is a good to differenciate an archive from other files and directories
+
+Using verbose is a good option specially if dealing with big files since it will show errors or permission problems: -v.
+
+Extracting from an archive.
+
+
+```
+tar -xvf archive.tar
+```
+     
+Compression.
+
+There are 3 compression types:
+
+* gzip (-z)
+* bzip2 (-j)
+* compress (-Z)
+
+```
+tar -cvjf archive.tar.bz2 file.txt
+```
+
+The extensions here are also not mandatory but are importante because they indentify the compression used in the archive.
+To extract, inform the compression used.
+
+```
+tar -xvjf archive.tar.bz2
+```
+      
+To add to an archive.tar (not compressed), use the option: -r
+
+
+```
+tar -rvf archive.tar file2.txt
+```
+      
+Listing (not compressed) -t
+
+
+```
+tar -tf archive.tar
+```
+      
+Removing (not compressed) –delete
+
+
+```
+tar -f archive.tar –delete file.txt
+```
+      
+Another important option: -C
+
+
+```
+tar -C /usr/local/ -xjvf archive.tar.bz2
+```
+      
+Will extract the contents from archive.tar.bz2 into /usr/local/

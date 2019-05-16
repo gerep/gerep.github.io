@@ -1,0 +1,28 @@
+---
+layout: post
+title: "git open"
+date: 2014-10-12
+categories:
+---
+
+The idea is simple.
+
+You need to keep switching between your terminal and browser to check the repository (git/bitbucket/gitlab) you are working on and that's why I have decided to automate that process.
+
+Inside a git project, type:
+
+
+```
+git open
+```
+      
+Your default browser will open in the actual branch but you can specify one.
+
+
+```
+git open neocities
+```
+      
+That's it!
+
+[git open on github](https://github.com/gerep/git-open)
