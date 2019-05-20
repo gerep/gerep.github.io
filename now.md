@@ -6,13 +6,7 @@ permalink: /now/
 
 (This is a [now page](https://nownownow.com/about))
 
-The _winter_ is coming to Brazil!
-
-_Winter_ because it will be around 20 celsius =)
-
-I am playing computer games only during weekends. I can do a better use of my time doing something else, like reading.
-
-So far, I have read 6 books this year. I am preparing a page where I can list them and share my thoughts.
+Playing computer games only during weekends. I can do a better use of my time doing something else, like reading.
 
 Still answering "no" to focus on what is significant.
 
@@ -20,4 +14,6 @@ Practioner of the Stoic philosophy.
 
 Spending a lot more time with my wife and two kids.
 
-Updated May 16th, 2019.
+Reading: [Godel, Escher, Bach: An Eternal Golden Braid](https://www.amazon.com.br/Godel-Escher-Bach-Eternal-Golden/dp/0465026567)
+
+Updated May 20th, 2019.
