@@ -2,9 +2,9 @@
  * ============================================== */
     .site-header {
         height: 55px;
-        background-color: #F5F5F5;
+        background-color: $background-color;
         position: relative;
-        width: 100%;
+        width: 100;
     }
 
     .site-header a {color: $brand-color};
@@ -13,7 +13,6 @@
         padding-top: 16px;
         float: right;
         margin-right: 25px;
-        text-transform: uppercase;
 
         .menu-icon {
             display: none;
@@ -54,8 +53,6 @@
         }
 
         .page-link {
-            font-family: 'Open Sans';
-            font-weight: 700 !important;
             line-height: $base-line-height;
             letter-spacing: 0.05em;
 
@@ -76,7 +73,6 @@
         padding-bottom: 3em;
         margin: auto;
         font-size: 12px;
-        font-family: Open Sans;
         color: #959595;
     }
 
@@ -122,11 +118,10 @@
     }
 
     .post-link {
-        font-family: 'Open Sans';
         font-weight: 300;
         font-size: 1.5em;
         letter-spacing: -1px;
-        color: #454545;
+        color: #695d46;
         display: block;
         width: 100%;
 
@@ -136,7 +131,7 @@
     }
 
     .post-meta {
-        font-size: $small-font-size;
+        font-size: 16px;
         color: $grey-color-light;
         text-transform: uppercase;
         display: inline-block;
@@ -152,8 +147,10 @@
         font-size: 42px;
         letter-spacing: -1px;
         line-height: 1;
+        color: $blue-color;
     }
 
     .post-content {
         margin-bottom: $spacing-unit;
+        font-size: 19px;
     }

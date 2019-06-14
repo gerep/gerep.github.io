@@ -3,7 +3,7 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+$base-font-family: 'PT Sans Narrow', 'PT Sans', Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.895;
 $large-font-size:  $base-font-size * 1.40;
@@ -12,9 +12,10 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #454545;
-$background-color: #FFF;
-$brand-color:      #00B2EE;
+$text-color:       #695d46;
+$background-color: #ffffff;
+$brand-color:      #ff5e0e;
+$blue-color:       #008575;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 30%);
