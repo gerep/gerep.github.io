@@ -19,7 +19,7 @@ You are given the string *MI* and you need, by following the rules, change it to
 
 **#4**: If *UU* occurs, you may drop it, like: *UUU* becomes *U*, *MUUUIIU* becomes *MIIU*
 
-You don not need to apply the rules whenever possible but only when you judge necessary.
+You do not need to apply the rules whenever possible but only when you judge necessary.
 
 An example:
 
