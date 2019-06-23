@@ -14,6 +14,6 @@ Practioner of the Stoic philosophy.
 
 Spending a lot more time with my wife and two kids.
 
-Reading: [Godel, Escher, Bach: An Eternal Golden Braid](https://www.amazon.com.br/Godel-Escher-Bach-Eternal-Golden/dp/0465026567)
+Reading: [Homo Deus A brief history of tomorrow](https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310)
 
-Updated May 20th, 2019.
+Updated June 22th, 2019.
