@@ -24,4 +24,3 @@ I will keep track of my readings here:
 * [telling you the answer isnt the answer](https://www.wired.com/2013/10/telling-you-the-answer-isnt-the-answer/)
 * [death by powerpoint: the slide that killed seven people](https://mcdreeamiemusings.com/new-blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx)
 * [no silver bullet](http://worrydream.com/refs/brooks-nosilverbullet.pdf)
-* [death by powerpoint: the slide that killed seven people](https://mcdreeamiemusings.com/new-blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx)
