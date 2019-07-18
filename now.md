@@ -14,6 +14,6 @@ Practioner of the Stoic philosophy.
 
 Spending a lot more time with my wife and two kids.
 
-Reading: [Homo Deus A brief history of tomorrow](https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310)
+I had to pause my readings because I am taking the course [Elements of AI](https://www.elementsofai.com)
 
-Updated June 22th, 2019.
+Updated July 18th, 2019.
