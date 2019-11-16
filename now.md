@@ -14,6 +14,6 @@ Practioner of the Stoic philosophy.
 
 Spending a lot more time with my wife and two kids.
 
-I had to pause my readings because I am taking the course [Elements of AI](https://www.elementsofai.com).
+I have finished an introductory course in AI, [Elements of AI](https://www.elementsofai.com) and I recommend if you have interest in that subject. Currently taking the course [Machine Learning](https://www.coursera.org/learn/machine-learning) and I am having a hard time to understand the math behind the algorithm. To help me with that I have created an account on [Brilliant](https://brilliant.org/) and I am studying mathematics.
 
-Updated July 18th, 2019.
+Updated November 16th, 2019.
