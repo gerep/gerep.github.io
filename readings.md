@@ -14,6 +14,7 @@ I will keep track of my readings here:
 * [The Courage to be Disliked](https://www.amazon.com/Courage-Be-Disliked-Phenomenon-Happiness/dp/1501197274/)
 * [The Manual](https://www.amazon.com/Manual-Philosophers-Guide-Life/dp/1545461112)
 * [Little Black Book Entrepreneurship Contrarians](https://www.amazon.com/Little-Black-Book-Entrepreneurship-Contrarians/dp/1480576883).
+* [Homo Deus](https://www.amazon.com.br/Homo-deus-Yuval-Noah-Harari/dp/8535928197)
 
 **everything else**
 
