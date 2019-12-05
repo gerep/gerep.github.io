@@ -15,6 +15,7 @@ I will keep track of my readings here:
 * [The Manual](https://www.amazon.com/Manual-Philosophers-Guide-Life/dp/1545461112)
 * [Little Black Book Entrepreneurship Contrarians](https://www.amazon.com/Little-Black-Book-Entrepreneurship-Contrarians/dp/1480576883).
 * [Homo Deus](https://www.amazon.com.br/Homo-deus-Yuval-Noah-Harari/dp/8535928197)
+* [Filho do Éden](https://www.amazon.com.br/Filhos-%C3%89den-Herdeiros-Atl%C3%A2ntida-Vol/dp/8576861410)
 
 **everything else**
 
