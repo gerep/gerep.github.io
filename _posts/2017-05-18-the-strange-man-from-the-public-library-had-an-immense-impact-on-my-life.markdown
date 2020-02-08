@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The strange man from the public library had an immense impact on my life"
+title: "the strange man from the public library had an immense impact on my life"
 date: 2017-05-18
 categories:
 ---
