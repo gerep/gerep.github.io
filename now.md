@@ -18,4 +18,6 @@ Small talk easily bores me the way it never did, which is a good thing.
 
 Trying to help my oldest son to understand his feelings, why and how they come to be, the way we react to situations outside of our control. Basicaly, the Stoic way of seing the world.
 
+I am writing down anything that comes to my mind in a small notebook.
+
 Updated February 27th, 2020.
