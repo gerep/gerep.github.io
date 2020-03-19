@@ -18,7 +18,7 @@ When working from home, you can lose track of time, it is easy to burn the midni
 
 
 
-There are those early birds and those night owls, who find what is best for your mind, body and work.
+There are those early birds and those night owls, find what is best for your mind, body and work.
 
 
 
