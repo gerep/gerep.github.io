@@ -6,18 +6,14 @@ permalink: /now/
 
 (This is a [now page](https://nownownow.com/about))
 
-Not playing on my computer anymore =)
+I am back to playing but with moderation, there is the right time and I think I have found it.
 
 Still answering "no" to focus on what is significant.
 
 Practioner of the Stoic philosophy.
 
-I have finished the course [Data Science Math Skills](https://www.coursera.org/learn/datasciencemathskills/) and it was really helpful but it demands practice, like everything else. With that, I can restart the course [Machine Learning](https://www.coursera.org/learn/machine-learning).
+Gave up on all the AI stuff. I believe it is still the future but I need to focus on something else that will help me start my own business instead of just studying non-stop.
 
-Small talk easily bores me the way it never did, which is a good thing.
+I am writing down anything that comes to my mind in a small notebook. Evernote is being usefull but I need to improve my note taking habilities.
 
-Trying to help my oldest son to understand his feelings, why and how they come to be, the way we react to situations outside of our control. Basicaly, the Stoic way of seing the world.
-
-I am writing down anything that comes to my mind in a small notebook.
-
-Updated February 27th, 2020.
+Updated May 15th, 2020.
