@@ -10,6 +10,6 @@ Why saying less?
 I see two risks when we talk a lot!
 
 - the risk of saying something untrue, imprecise or regretful;
-- the rist of being misinterpret.
+- the risk of being misinterpreted.
 
 Being quiet will take those two risks away.
