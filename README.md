@@ -1,2 +1,3 @@
 # gerep.github.io
-Blog
+
+My blog where I write various things
