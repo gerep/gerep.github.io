@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bothered by what I do"
+title: "bothered by what I do"
 date: 2021-01-20
 categories:
 ---
