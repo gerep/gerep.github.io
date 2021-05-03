@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the-best-thing"
+title: "the best thing"
 date: 2021-05-03
 categories:
 ---
