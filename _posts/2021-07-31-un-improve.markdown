@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "nn-improve myself"
+title: "un-improve myself"
 date: 2021-07-31
 categories:
 ---
