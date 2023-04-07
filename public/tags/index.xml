@@ -444,7 +444,7 @@ Now I am aware that some of my opinions, thoughts and what I say are not entirel
       <guid>https://gerep.github.io/can-you-produce-mu/</guid>
       <description>&lt;p&gt;This is a challenge from the book &lt;a href=&#34;https://www.amazon.com.br/Godel-Escher-Bach-Eternal-Golden/dp/0465026567&#34;&gt;Godel, Escher, Bach: An Eternal Golden Braid&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You are given the string &lt;em&gt;MI&lt;/em&gt; and you need, by following the rules, change it to &lt;em&gt;MU&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;rules&#34;&gt;Rules:&lt;/h2&gt;
+&lt;h4 id=&#34;rules&#34;&gt;Rules:&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;#1&lt;/strong&gt;: If the last letter is &lt;em&gt;I&lt;/em&gt;, you may add a letter &lt;em&gt;U&lt;/em&gt; at the end.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;#2&lt;/strong&gt;: If you have M&lt;em&gt;x&lt;/em&gt;, you may duplicate the &lt;em&gt;x&lt;/em&gt;, like: &lt;em&gt;MIU&lt;/em&gt; becomes &lt;em&gt;MIUIU&lt;/em&gt;, &lt;em&gt;MUM&lt;/em&gt; becomes &lt;em&gt;MUMUM&lt;/em&gt;, &lt;em&gt;MU&lt;/em&gt; becomes &lt;em&gt;MUU&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;#3&lt;/strong&gt;: If &lt;em&gt;III&lt;/em&gt; occurs, you may replace it with &lt;em&gt;U&lt;/em&gt;, like: &lt;em&gt;MIII&lt;/em&gt; becomes &lt;em&gt;MU&lt;/em&gt;, &lt;em&gt;MUIIIU&lt;/em&gt; becomes &lt;em&gt;MUUU&lt;/em&gt;, &lt;em&gt;MIIII&lt;/em&gt; becomes &lt;em&gt;MUI&lt;/em&gt; or &lt;em&gt;MIU&lt;/em&gt;; The reverse is not aplicable, you cannot turn a &lt;em&gt;U&lt;/em&gt; into &lt;em&gt;III&lt;/em&gt;.&lt;/p&gt;
@@ -850,6 +850,8 @@ To extract, inform the compression used.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Will extract the contents from archive.tar.bz2 into /usr/local/&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     
     
