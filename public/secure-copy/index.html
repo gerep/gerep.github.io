@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My notes">
+    
+    <link rel="shortcut icon" href="https://gerep.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://gerep.github.io/secure-copy/" />
+    <title>secure copy</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gerep.github.io/">My notes</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>secure copy</h1>
+        <div>
+                <time>March 17, 2015</time>
+            </div>
+    </header><p>The scp command allows file transfers between hosts via ssh, offering the same level os security and authentication method.</p>
+<p>Local -&gt; Remote</p>
+<pre tabindex="0"><code>$ scp file.txt user@host:/home/user/remote-directory/
+</code></pre><p>Multiple files: Local -&gt; Remote</p>
+<pre tabindex="0"><code>$ scp file.txt file2.txt user@host:/home/user/remote-directory/
+</code></pre><p>Remote -&gt; Local</p>
+<pre tabindex="0"><code>$ scp user@host:/home/user/remote-directory/file.txt /home/user/local-directory/
+</code></pre><p>Multiple files: Remote -&gt; Local</p>
+<pre tabindex="0"><code>$ scp user@host:/home/user/remote-directory/\{file.txt, file2.txt\} /home/user/local-directory/
+</code></pre><p>Directory</p>
+<pre tabindex="0"><code>$ scp -r /home/user/local-directory user@host:/home/user/remote-directory/
+</code></pre><p>Remote -&gt; Remote</p>
+<pre tabindex="0"><code>$ scp user@host:/home/user/remote-directory/file.txt \ another-user@another-host:/home/another-user/remote-directory
+</code></pre><p>Port</p>
+<pre tabindex="0"><code>$ scp -P 13579 file.txt user@host:/home/user/
+</code></pre><p>scp uses Triple-DES by default to encrypt the data being transfered.Some tests show that using Blowfish is faster.</p>
+<p>Use the option <strong>-c</strong></p>
+<pre tabindex="0"><code>$ scp -c blowfish file.txt user@host:/home/user/
+</code></pre><p>Use the option <strong>-C</strong> to compress</p>
+<pre tabindex="0"><code>$ scp -C file.txt user@host:/home/user/
+</code></pre><p>As expected it is possible to combine the options:</p>
+<pre tabindex="0"><code>$ scp -P13579 -C -c blowfish file1.txt user@host:/home/user/
+</code></pre></article>
+
+        </main><footer id="footer">
+    Copyright © Daniel Gerep
+</footer>
+</body>
+</html>

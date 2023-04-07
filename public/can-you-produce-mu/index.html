@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My notes">
+    
+    <link rel="shortcut icon" href="https://gerep.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://gerep.github.io/can-you-produce-mu/" />
+    <title>can you produce MU?</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gerep.github.io/">My notes</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>can you produce MU?</h1>
+        <div>
+                <time>June 11, 2019</time>
+            </div>
+    </header><p>This is a challenge from the book <a href="https://www.amazon.com.br/Godel-Escher-Bach-Eternal-Golden/dp/0465026567">Godel, Escher, Bach: An Eternal Golden Braid</a>.</p>
+<p>You are given the string <em>MI</em> and you need, by following the rules, change it to <em>MU</em>.</p>
+<h2 id="rules">Rules:</h2>
+<p><strong>#1</strong>: If the last letter is <em>I</em>, you may add a letter <em>U</em> at the end.</p>
+<p><strong>#2</strong>: If you have M<em>x</em>, you may duplicate the <em>x</em>, like: <em>MIU</em> becomes <em>MIUIU</em>, <em>MUM</em> becomes <em>MUMUM</em>, <em>MU</em> becomes <em>MUU</em>.</p>
+<p><strong>#3</strong>: If <em>III</em> occurs, you may replace it with <em>U</em>, like: <em>MIII</em> becomes <em>MU</em>, <em>MUIIIU</em> becomes <em>MUUU</em>, <em>MIIII</em> becomes <em>MUI</em> or <em>MIU</em>; The reverse is not aplicable, you cannot turn a <em>U</em> into <em>III</em>.</p>
+<p><strong>#4</strong>: If <em>UU</em> occurs, you may drop it, like: <em>UUU</em> becomes <em>U</em>, <em>MUUUIIU</em> becomes <em>MIIU</em></p>
+<p>You do not need to apply the rules whenever possible but only when you judge necessary.</p>
+<p>An example:</p>
+<pre tabindex="0"><code>Given MI
+Rule 2: MII
+Rule 2: MIIII
+Rule 1: MIIIIU
+Rule 2: MIIIIUIIII
+Rule 3: MIUUI
+....
+</code></pre></article>
+
+        </main><footer id="footer">
+    Copyright © Daniel Gerep
+</footer>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My notes">
+    
+    <link rel="shortcut icon" href="https://gerep.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://gerep.github.io/commit-part-of-a-file-with-git/" />
+    <title>commit part of a file with Git</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gerep.github.io/">My notes</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>commit part of a file with Git</h1>
+        <div>
+                <time>September 12, 2015</time>
+            </div>
+    </header><pre tabindex="0"><code> git add -p file.txt
+</code></pre><p>This command will show a list of changes in the file and show some options.</p>
+<p>Exemple where I removed the gem bootstrap-sass and added the gem spring</p>
+<pre tabindex="0"><code>$ git diff Gemfile
+diff --git a/Gemfile b/Gemfile
+index 80641f6..11ec461 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -7,7 +7,6 @@ gem 'rails', '4.2.3'
+  gem 'pg', '0.18.2'
+  
+  # Asset Pipeline
+-gem 'bootstrap-sass'
+  gem 'bootstrap-slider-rails'
+  gem 'coffee-rails'
+  gem 'font-awesome-rails'
+@@ -50,6 +49,7 @@ group :development, :test do
+    gem 'mocha'
+    gem 'quiet_assets'
+    gem 'simplecov'
++  gem 'spring'
+  end
+  
+  group :staging, :production do
+</code></pre><p>Using git add -p Gemfile will show this:</p>
+<pre tabindex="0"><code>$ git add -p Gemfile
+diff --git a/Gemfile b/Gemfile
+index 80641f6..11ec461 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -7,7 +7,6 @@ gem 'rails', '4.2.3'
+  gem 'pg', '0.18.2'
+  
+  # Asset Pipeline
+-gem 'bootstrap-sass'
+  gem 'bootstrap-slider-rails'
+  gem 'coffee-rails'
+  gem 'font-awesome-rails'
+Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
+</code></pre><p>It is showing the first change in the file and the options: [y,n,q,a,d,/,j,J,g,e,?]</p>
+<p>Pressing <strong>y</strong> will add only that block and will keep showing the next blocks.</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © Daniel Gerep
+</footer>
+</body>
+</html>

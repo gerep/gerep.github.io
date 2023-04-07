@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My notes">
+    
+    <link rel="shortcut icon" href="https://gerep.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://gerep.github.io/tar/" />
+    <title>tar</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gerep.github.io/">My notes</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>tar</h1>
+        <div>
+                <time>May 21, 2014</time>
+            </div>
+    </header><p>tar is not a compression tool, it simply creates and archive</p>
+<p>Creating an archive:</p>
+<pre tabindex="0"><code>tar -cf archive.tar file.txt
+</code></pre><p>It will create the archive.tar with file.txt inside it. The extension is not mandatory but it is a good to differenciate an archive from other files and directories</p>
+<p>Using verbose is a good option specially if dealing with big files since it will show errors or permission problems: -v.</p>
+<p>Extracting from an archive.</p>
+<pre tabindex="0"><code>tar -xvf archive.tar
+</code></pre><p>Compression.</p>
+<p>There are 3 compression types:</p>
+<ul>
+<li>gzip (-z)</li>
+<li>bzip2 (-j)</li>
+<li>compress (-Z)</li>
+</ul>
+<pre tabindex="0"><code>tar -cvjf archive.tar.bz2 file.txt
+</code></pre><p>The extensions here are also not mandatory but are importante because they indentify the compression used in the archive.
+To extract, inform the compression used.</p>
+<pre tabindex="0"><code>tar -xvjf archive.tar.bz2
+</code></pre><p>To add to an archive.tar (not compressed), use the option: -r</p>
+<pre tabindex="0"><code>tar -rvf archive.tar file2.txt
+</code></pre><p>Listing (not compressed) -t</p>
+<pre tabindex="0"><code>tar -tf archive.tar
+</code></pre><p>Removing (not compressed) –delete</p>
+<pre tabindex="0"><code>tar -f archive.tar –delete file.txt
+</code></pre><p>Another important option: -C</p>
+<pre tabindex="0"><code>tar -C /usr/local/ -xjvf archive.tar.bz2
+</code></pre><p>Will extract the contents from archive.tar.bz2 into /usr/local/</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © Daniel Gerep
+</footer>
+</body>
+</html>

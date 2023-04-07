@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My notes">
+    
+    <link rel="shortcut icon" href="https://gerep.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://gerep.github.io/hard-link-soft-link/" />
+    <title>hard link soft link</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gerep.github.io/">My notes</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>hard link soft link</h1>
+        <div>
+                <time>February 6, 2015</time>
+            </div>
+    </header><p>The <strong>ln</strong> command is responsible for creating links.</p>
+<p>If no option is used a <strong>hard link</strong> will be created:</p>
+<pre tabindex="0"><code>ln file1 file2
+</code></pre><p>This command will create a <strong>hard link</strong> called <strong>file2</strong>.</p>
+<p>Hard links doesn&rsquo;t have any aparent difference when using the ls command.</p>
+<p>Use the option <strong>-l</strong> (long) with the <strong>ls</strong> command and the number 2 will appear after the permissions and this number is the amount of hard links:</p>
+<pre tabindex="0"><code>-rw-r--r-- 2 gerep users 0 07.02.2015 00:46 arquivo1
+-rw-r--r-- 2 gerep users 0 07.02.2015 00:46 arquivo2
+</code></pre><p>Using <code>ls -i file1 file2</code> will show something like this:</p>
+<pre tabindex="0"><code>6817649 file1  6817649 file2
+</code></pre><p>Those numbers are the inode and both files are sharing the same one.</p>
+<p>Any changes on file1 will happens on file2 and vice-versa but if one is removed the other isn&rsquo;t.</p>
+<p><strong>Hard links</strong> can&rsquo;t be created for directories, between particions or file system.</p>
+<p><strong>Soft links</strong> can be created for directories, between particions or file system.</p>
+<p>Use the options <strong>-s</strong> with the ln command to create a soft link:</p>
+<pre tabindex="0"><code>ln -s file1 file2
+</code></pre><p>Using the option <strong>-l</strong> (long) will show the letter <strong>l</strong> before the permissions:</p>
+<pre tabindex="0"><code>-rw-r--r-- 1 gerep users 8 07.02.2015 00:41 file1
+lrwxrwxrwx 1 gerep users 5 07.02.2015 00:41 file2 -&gt; file1
+</code></pre><p>file2 is now showed as a link and the amount is still 1.</p>
+<p>The inode value is different, using ls -i file1 file2:</p>
+<pre tabindex="0"><code>6817649 file1  6816910 file2@
+</code></pre><p>Any changes will be applied in both files but if one is deleted the other one becomes invalid.</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © Daniel Gerep
+</footer>
+</body>
+</html>

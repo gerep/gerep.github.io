@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My notes">
+    
+    <link rel="shortcut icon" href="https://gerep.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="https://gerep.github.io/golang-pointers/" />
+    <title>golang pointers</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gerep.github.io/">My notes</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">posts</a>
+            </li><li>
+                <a href="/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>golang pointers</h1>
+        <div>
+                <time>May 5, 2015</time>
+            </div>
+    </header><p>When you send a parameter to a function you are sending a copy of that variable, doesn&rsquo;t matter what happen inside the funcion, the original variable won&rsquo;t change.</p>
+<p>In a variable declaration there is a memory space used to store information. The first byte is the address. Using &amp; before a variable will return its memory address.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-golang" data-lang="golang"><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+
+<span class="kd">var</span> <span class="nx">name</span> <span class="kt">string</span> <span class="p">=</span> <span class="s">&#34;Gerep&#34;</span>
+<span class="kd">var</span> <span class="nx">age</span> <span class="kt">int</span> <span class="p">=</span> <span class="mi">31</span>
+<span class="kd">var</span> <span class="nx">pi</span> <span class="kt">float32</span> <span class="p">=</span> <span class="mf">3.14</span>
+
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;name address: &#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">name</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;age address: &#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">age</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;pi address: &#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="nx">pi</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div><p>Return:</p>
+<pre tabindex="0"><code>name address:  0x54aab0
+age address:  0x546060
+pi address:  0x546014
+</code></pre><p>Declaring a pointer is also simple:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-golang" data-lang="golang"><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+
+<span class="kd">var</span> <span class="nx">name</span> <span class="kt">string</span>
+<span class="kd">var</span> <span class="nx">age</span> <span class="kt">int</span>  
+
+<span class="kd">var</span> <span class="nx">stringPointer</span> <span class="o">*</span><span class="kt">string</span>
+<span class="kd">var</span> <span class="nx">integerPointer</span> <span class="o">*</span><span class="kt">int</span>
+
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">stringPointer</span> <span class="p">=</span> <span class="o">&amp;</span><span class="nx">name</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">stringPointer</span><span class="p">)</span>
+    <span class="nx">integerPointer</span> <span class="p">=</span> <span class="o">&amp;</span><span class="nx">age</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">integerPointer</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div><p>Return:</p>
+<pre tabindex="0"><code>0x54b440
+0x552930
+</code></pre><p>Remember:</p>
+<p><strong>&amp;</strong> is used to return the variable memory address. <strong>*</strong> is used to return the value of the variable that is being pointed (dereferencing).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-golang" data-lang="golang"><span class="kn">package</span> <span class="nx">main</span>
+
+<span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+
+<span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">name</span> <span class="o">:=</span> <span class="s">&#34;Gerep&#34;</span>
+    <span class="nx">stringPointer</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">name</span>
+
+    <span class="nx">age</span> <span class="o">:=</span> <span class="mi">31</span>
+    <span class="nx">integerPointer</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">age</span>
+
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Name: &#34;</span><span class="p">,</span> <span class="nx">name</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;stringPointer points to a variable with value: &#34;</span><span class="p">,</span> <span class="o">*</span><span class="nx">stringPointer</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Age: &#34;</span><span class="p">,</span> <span class="nx">age</span><span class="p">)</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;integerPointer points to a variable with value: &#34;</span><span class="p">,</span> <span class="o">*</span><span class="nx">integerPointer</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div><p>Return:</p>
+<pre tabindex="0"><code>Name: Gerep
+stringPointer points to a variable with value: Gerep
+Age:  31
+integerPointer points to a variable with value: 31
+</code></pre></article>
+
+        </main><footer id="footer">
+    Copyright © Daniel Gerep
+</footer>
+</body>
+</html>
