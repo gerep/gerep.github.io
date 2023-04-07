@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2023-04-07T09:12:26-03:00
-draft: true
+draft: false
 ---
 
 I am a Brazilian software writer. I do that for a living and also as a hobby.
