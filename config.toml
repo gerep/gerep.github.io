@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 [params]
   description = "My notes"
   copyright = "Copyright © Daniel Gerep"
-  dark = "auto"
+  dark = "true"
   highlight = true
 
 [menu]

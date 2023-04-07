@@ -9,7 +9,7 @@ This is a challenge from the book [Godel, Escher, Bach: An Eternal Golden Braid]
 
 You are given the string *MI* and you need, by following the rules, change it to *MU*.
 
-## Rules:
+#### Rules:
 
 **#1**: If the last letter is *I*, you may add a letter *U* at the end.
 
