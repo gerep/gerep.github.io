@@ -8,7 +8,6 @@ pygmentsUseClasses = true
 
 [params]
   description = "My notes"
-  copyright = "Copyright © Daniel Gerep"
   dark = "true"
   highlight = true
 
