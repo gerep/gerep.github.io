@@ -9,7 +9,7 @@ categories:
 
 This is my first game.
 
-I'm using [Godot](https://godotengine.org/) 3.5.
+I'm using [Godot](https://godotengine.org/) 4.
 
 It is a single-player, top-down 2D shooter.
 
@@ -17,16 +17,16 @@ This game tells the story of a soul in hell, Koyma.
 
 Koyma was allowed to leave hell by going through a series of challenges.
 
-Each level will have a distinct difficulty, represented by a sin or bad human behaviour like anger, anxiety, fear, greed, etc.
+Each level will have a distinct difficulty, represented by a sin or bad human behaviour, such as anger, anxiety, fear, or greed.
 
 The game will also use music to set the mood.
 
-My main intention is not to create a bullet-hell game or for it to take hours. I always liked playing games that made me feel something. This is my main objective with this game.
+My main intention is not to create a bullet-hell game or make it take hours. I always liked playing games that made me feel something, and this is my main objective with this game.
 
-Who knows if this is going to become what I think it will. If that happens, I may make game development my new career.
+Who knows if this will become what I think it will. If that happens, I may make game development my new career.
 
 ---
 
-I have [Aseprite](https://www.aseprite.org/), and it's an easy tool to use and create 2D art. The problem is I'm not an artist, although I tried creating assets for this game.
+I have [Aseprite](https://www.aseprite.org/), which is an easy tool for creating 2D art. However, although I tried creating assets for this game, I'm not an artist.
 
-For now, everything will be geometric 2D shapes. I will add animation, particles and lighting in the future.
+For now, everything will be geometric 2D shapes. In the future, I will add animation, particles, and lighting.
