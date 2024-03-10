@@ -5,10 +5,9 @@ date: 2024-02-08
 categories:
 ---
 
-
 ## This will be my first game.
 
-I'm using [Godot](https://godotengine.org/) 3.5.
+I'm using [Godot](https://godotengine.org/) 4.
 
 It is a single-player, top-down 2D shooter.
 
@@ -26,4 +25,4 @@ Who knows if this will become what I think it will. If that happens, I may make 
 
 ---
 
-I have [Aseprite](https://www.aseprite.org/), which is an easy tool for creating 2D art. However, although I tried creating assets for this game, I'm not an artist.
+I have [Aseprite](https://www.aseprite.org/), an easy tool for creating 2D art. Although I tried creating assets for this game, I'm not an artist.
