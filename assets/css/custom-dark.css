@@ -1,0 +1,82 @@
+html {
+    scrollbar-color: #8b7d6f #262626;
+}
+
+body {
+    color: #cebaa0;
+    background: #262626;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header#banner a {
+    color: #d4c4b0;
+    text-decoration: none;
+}
+
+header#banner nav ul li a {
+    color: #bbb0a3;
+}
+
+main#content a {
+    color: #c9a96e;
+}
+
+main#content p {
+    color: #cebaa0;
+}
+
+main#content #toc h4 {
+    color: #cebaa0;
+}
+
+main#content ul#posts small {
+    color: #9e9278;
+}
+
+main#content ul#posts li a:hover {
+    color: #ddb892;
+}
+
+main#content header#post-header div {
+    color: #9e9278;
+}
+
+main#content blockquote {
+    border-left-color: #c9a96e;
+    background: rgba(201, 169, 110, 0.08);
+    padding: 20px 16px 20px 20px;
+    margin: 24px 0;
+    color: #d4c4b0;
+    font-style: normal;
+    font-size: 1.05em;
+    line-height: 1.7;
+}
+
+main#content ul:not(#posts) {
+    background: rgba(201, 169, 110, 0.05);
+    padding: 16px 40px;
+    border-radius: 4px;
+    margin: 16px 0;
+}
+
+main#content ul:not(#posts) li {
+    margin: 10px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start; 
+}
+
+main#content ul:not(#posts) li:before {
+    content: "▸";
+    color: #c9a96e;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+main#content hr {
+    border: none;
+    height: 1px;
+    background: rgba(201, 169, 110, 0.3);
+    margin: 32px 0;
+}
