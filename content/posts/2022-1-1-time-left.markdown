@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "time left"
-date: 2022-1-1
+date: 2022-01-01
 categories:
 ---
 

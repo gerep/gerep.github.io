@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "impermanence of everything"
-date: 2022-7-29
+date: 2022-07-29
 categories:
 ---
 

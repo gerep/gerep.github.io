@@ -20,6 +20,13 @@ pygmentsUseClasses = true
     weight = 10
 
   [[menu.main]]
+    identifier = "devlog"
+    name = "devlog"
+    title = "devlog"
+    url = "/devlog/"
+    weight = 15
+
+  [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
