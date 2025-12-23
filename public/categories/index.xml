@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My notes</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:39939/categories/</link>
     <description>Recent content in Categories on My notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:39939/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     
     
     
@@ -17,10 +19,10 @@
     
     <item>
       <title>redemption</title>
-      <link>http://localhost:1313/redemption/</link>
+      <link>http://localhost:39939/redemption/</link>
       <pubDate>Thu, 08 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/redemption/</guid>
+      <guid>http://localhost:39939/redemption/</guid>
       <description>&lt;h2 id=&#34;this-will-be-my-first-game&#34;&gt;This will be my first game.&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;https://godotengine.org/&#34;&gt;Godot&lt;/a&gt; 4.&lt;/p&gt;
 &lt;p&gt;It is a single-player, top-down 2D shooter.&lt;/p&gt;
@@ -39,10 +41,10 @@
     
     <item>
       <title>today</title>
-      <link>http://localhost:1313/today/</link>
+      <link>http://localhost:39939/today/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/today/</guid>
+      <guid>http://localhost:39939/today/</guid>
       <description>&lt;p&gt;On this glorious day, a being from other parts of the galaxy left me here on Earth and said:&lt;/p&gt;
 &lt;p&gt;This is the day your existence decided to exist. Today. Go for it!&lt;/p&gt;
 &lt;p&gt;I quickly asked.&lt;/p&gt;
@@ -60,10 +62,10 @@
     
     <item>
       <title>when tomorrow starts without me</title>
-      <link>http://localhost:1313/when-tomorrow-starts-without-me/</link>
+      <link>http://localhost:39939/when-tomorrow-starts-without-me/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/when-tomorrow-starts-without-me/</guid>
+      <guid>http://localhost:39939/when-tomorrow-starts-without-me/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;When tomorrow starts without me,&lt;br/&gt;
 And I&amp;rsquo;m not there to see,&lt;br/&gt;
@@ -143,10 +145,10 @@ I&amp;rsquo;m right here, in your heart.&lt;br/&gt;&lt;/p&gt;
     
     <item>
       <title>impermanence of everything</title>
-      <link>http://localhost:1313/impermanence-of-everything/</link>
+      <link>http://localhost:39939/impermanence-of-everything/</link>
       <pubDate>Fri, 29 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/impermanence-of-everything/</guid>
+      <guid>http://localhost:39939/impermanence-of-everything/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been thinking a lot about how everything is impermanent.&lt;/p&gt;
 &lt;p&gt;Everything alive will die.&lt;/p&gt;
 &lt;p&gt;The mountains will erode.&lt;/p&gt;
@@ -178,10 +180,10 @@ I&amp;rsquo;m right here, in your heart.&lt;br/&gt;&lt;/p&gt;
     
     <item>
       <title>in time</title>
-      <link>http://localhost:1313/in-time/</link>
+      <link>http://localhost:39939/in-time/</link>
       <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/in-time/</guid>
+      <guid>http://localhost:39939/in-time/</guid>
       <description>&lt;p&gt;There is a song called &lt;a href=&#34;https://www.youtube.com/watch?v=nQ022pvlKOk&#34;&gt;In Time&lt;/a&gt; by Danny Elfman that has small but powerful lyrics.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;In time we all create ourselves&lt;br&gt;
@@ -216,10 +218,10 @@ In time&lt;br&gt;&lt;/p&gt;
     
     <item>
       <title>time left</title>
-      <link>http://localhost:1313/time-left/</link>
+      <link>http://localhost:39939/time-left/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/time-left/</guid>
+      <guid>http://localhost:39939/time-left/</guid>
       <description>&lt;p&gt;Time is a non-renewable resource. We may spend it as if it is renewable, which is a mistake.&lt;/p&gt;
 &lt;p&gt;We need to make some tough choices and spend our precious time doing things we don&amp;rsquo;t enjoy but have to.&lt;/p&gt;
 &lt;p&gt;When thinking about improving ourselves, we think about the time required.&lt;/p&gt;
@@ -240,10 +242,10 @@ In time&lt;br&gt;&lt;/p&gt;
     
     <item>
       <title>slow dance</title>
-      <link>http://localhost:1313/slow-dance/</link>
+      <link>http://localhost:39939/slow-dance/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/slow-dance/</guid>
+      <guid>http://localhost:39939/slow-dance/</guid>
       <description>&lt;p&gt;This is a poem by David L. Weatherford&lt;/p&gt;
 &lt;br/&gt;
 &lt;h2 id=&#34;slow-dance&#34;&gt;Slow Dance&lt;/h2&gt;
@@ -317,10 +319,10 @@ In time&lt;br&gt;&lt;/p&gt;
     
     <item>
       <title>where I am not</title>
-      <link>http://localhost:1313/where-i-am-not/</link>
+      <link>http://localhost:39939/where-i-am-not/</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/where-i-am-not/</guid>
+      <guid>http://localhost:39939/where-i-am-not/</guid>
       <description>&lt;p&gt;I see myself, with frequency, in a place where I am not. By that, I mean the past and the future.&lt;/p&gt;
 &lt;p&gt;I am living in the wrong place. The right place? The present.&lt;/p&gt;
 &lt;p&gt;Trying to understand why, I can&amp;rsquo;t stop thinking about life being a journey, something to go through.&lt;/p&gt;
@@ -342,10 +344,10 @@ In time&lt;br&gt;&lt;/p&gt;
     
     <item>
       <title>foreign language</title>
-      <link>http://localhost:1313/foreign-language/</link>
+      <link>http://localhost:39939/foreign-language/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/foreign-language/</guid>
+      <guid>http://localhost:39939/foreign-language/</guid>
       <description>&lt;p&gt;My first language is Brazilian Portuguese.&lt;/p&gt;
 &lt;p&gt;A friend of mine once said that, to him, Portuguese was noise. He was not criticizing the language. He had a good point.&lt;/p&gt;
 &lt;p&gt;Any other language not your own is noise in the beginning.&lt;/p&gt;
@@ -364,10 +366,10 @@ In time&lt;br&gt;&lt;/p&gt;
     
     <item>
       <title>un-improve myself</title>
-      <link>http://localhost:1313/un-improve-myself/</link>
+      <link>http://localhost:39939/un-improve-myself/</link>
       <pubDate>Sat, 31 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/un-improve-myself/</guid>
+      <guid>http://localhost:39939/un-improve-myself/</guid>
       <description>&lt;p&gt;Yes, I am swimming against the tide here.&lt;/p&gt;
 &lt;p&gt;I have spent hours and days reading books and articles about how to do this or that better.&lt;/p&gt;
 &lt;p&gt;When I wanted to take notes, I would search &amp;ldquo;how to take notes&amp;rdquo;. There is a lot of content we can read about that. There are techniques, best practices and tools. After hours of reading, testing apps and watching YouTube videos, there is only one thing I did not do, take notes.&lt;/p&gt;
@@ -397,10 +399,10 @@ I grab a pen and write down what I think is relevant to me.&lt;/p&gt;
     
     <item>
       <title>working remote</title>
-      <link>http://localhost:1313/working-remote/</link>
+      <link>http://localhost:39939/working-remote/</link>
       <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/working-remote/</guid>
+      <guid>http://localhost:39939/working-remote/</guid>
       <description>&lt;p&gt;I have some familiarity working remote and so far I came up with some points.&lt;/p&gt;
 &lt;p&gt;The first thing I do is to avoid accessing personal stuff during working hours but when I do, I use my phone.&lt;/p&gt;
 &lt;p&gt;I do not access news websites or blogs that I know will get my attention for several minutes and not help me at all. I save interesting links for later in my Notion page so I can access them later in the day. That way I am not missing anything interesting and I am not getting in the way of the work I have to do.&lt;/p&gt;
@@ -420,10 +422,10 @@ I grab a pen and write down what I think is relevant to me.&lt;/p&gt;
     
     <item>
       <title>the best thing</title>
-      <link>http://localhost:1313/the-best-thing/</link>
+      <link>http://localhost:39939/the-best-thing/</link>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-best-thing/</guid>
+      <guid>http://localhost:39939/the-best-thing/</guid>
       <description>&lt;p&gt;One day my son asked me: &amp;ldquo;Dad, to you, what is the best thing to do?&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;Since it is a complex question, I asked him for some time to think.&lt;/p&gt;
 &lt;p&gt;After a few days, going to take a shower, I remember how good it felt when the warm water touched my skin and that was it.&lt;/p&gt;
@@ -444,10 +446,10 @@ I grab a pen and write down what I think is relevant to me.&lt;/p&gt;
     
     <item>
       <title>opinion</title>
-      <link>http://localhost:1313/opinion/</link>
+      <link>http://localhost:39939/opinion/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/opinion/</guid>
+      <guid>http://localhost:39939/opinion/</guid>
       <description>&lt;p&gt;It is required to test my opinions, to validate them willingly.&lt;/p&gt;
 &lt;p&gt;Making my opinions stronger or abandoning the wrong ones, will make me a stronger person.&lt;/p&gt;
 &lt;p&gt;I am training myself to get stronger when in disagreement. To have a clear mind, without judgement and simply listen.&lt;/p&gt;
@@ -460,10 +462,10 @@ I grab a pen and write down what I think is relevant to me.&lt;/p&gt;
     
     <item>
       <title>anxiety</title>
-      <link>http://localhost:1313/anxiety/</link>
+      <link>http://localhost:39939/anxiety/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/anxiety/</guid>
+      <guid>http://localhost:39939/anxiety/</guid>
       <description>&lt;p&gt;I am feeling anxious for a while and to find its cause was not obvious.&lt;/p&gt;
 &lt;p&gt;I work for a company that has a box where it tries to fit all its employees and I am terrible when someone tries to make fit somewhere I don&amp;rsquo;t belong or have no interest in belonging to.&lt;/p&gt;
 &lt;p&gt;I found a tweet with the saying: &amp;ldquo;Trying to fit in when you are fundamentally an outlier will make you anxious.&amp;rdquo;, it clicked. My job is the root of this anxiety.&lt;/p&gt;
@@ -478,10 +480,10 @@ I grab a pen and write down what I think is relevant to me.&lt;/p&gt;
     
     <item>
       <title>bothered by what I do</title>
-      <link>http://localhost:1313/bothered-by-what-i-do/</link>
+      <link>http://localhost:39939/bothered-by-what-i-do/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/bothered-by-what-i-do/</guid>
+      <guid>http://localhost:39939/bothered-by-what-i-do/</guid>
       <description>&lt;p&gt;It is frustrating to do something and not enjoy it.&lt;/p&gt;
 &lt;p&gt;I do not seek satisfaction in everything I do. Working with something that does not motivate, does not push you forward, that is a sad place to be.&lt;/p&gt;
 &lt;p&gt;Dealing with things that I do not like is required, that is what will make me grow. As I say, I do not have to leave my comfort zone, but I have to make it bigger. My comfort zone is where I shine.&lt;/p&gt;
@@ -500,10 +502,10 @@ I grab a pen and write down what I think is relevant to me.&lt;/p&gt;
     
     <item>
       <title>how much of me is authentic?</title>
-      <link>http://localhost:1313/how-much-of-me-is-authentic/</link>
+      <link>http://localhost:39939/how-much-of-me-is-authentic/</link>
       <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/how-much-of-me-is-authentic/</guid>
+      <guid>http://localhost:39939/how-much-of-me-is-authentic/</guid>
       <description>&lt;p&gt;I enjoy spending some time alone, doing nothing, just observing my thoughts and criticizing them.&lt;/p&gt;
 &lt;p&gt;I started to think about ownership and began to disapprove this idea and wanted to know why.&lt;/p&gt;
 &lt;p&gt;To my surprise, what came to mind was some of my close friend&amp;rsquo;s opinions, not mine. It was a sad moment, realizing I was carrying an idea that was not mine.&lt;/p&gt;
@@ -528,10 +530,10 @@ Now I am aware that some of my opinions, thoughts and what I say are not entirel
     
     <item>
       <title>looking for something</title>
-      <link>http://localhost:1313/looking-for-something/</link>
+      <link>http://localhost:39939/looking-for-something/</link>
       <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/looking-for-something/</guid>
+      <guid>http://localhost:39939/looking-for-something/</guid>
       <description>&lt;p&gt;I am currently looking for something, something beyond religion/mystical land.&lt;/p&gt;
 &lt;p&gt;Something that helps me to deeply connect my brain to my body.&lt;/p&gt;
 &lt;p&gt;A connection to trigger something inside, something valuable.&lt;/p&gt;
@@ -542,10 +544,10 @@ Now I am aware that some of my opinions, thoughts and what I say are not entirel
     
     <item>
       <title>saying less</title>
-      <link>http://localhost:1313/saying-less/</link>
+      <link>http://localhost:39939/saying-less/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/saying-less/</guid>
+      <guid>http://localhost:39939/saying-less/</guid>
       <description>&lt;p&gt;Why saying less?&lt;/p&gt;
 &lt;p&gt;I see two risks when we talk a lot!&lt;/p&gt;
 &lt;ul&gt;
@@ -560,10 +562,10 @@ Now I am aware that some of my opinions, thoughts and what I say are not entirel
     
     <item>
       <title>being a parent</title>
-      <link>http://localhost:1313/being-a-parent/</link>
+      <link>http://localhost:39939/being-a-parent/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/being-a-parent/</guid>
+      <guid>http://localhost:39939/being-a-parent/</guid>
       <description>&lt;p&gt;Having kids is an extraordinary experience.&lt;/p&gt;
 &lt;p&gt;From one day to the next, you become responsible for someone.&lt;/p&gt;
 &lt;p&gt;That someone will make you tired, sometimes angry, disrupt your sleep, take your free time and force you to change habits.&lt;/p&gt;
@@ -582,10 +584,10 @@ Now I am aware that some of my opinions, thoughts and what I say are not entirel
     
     <item>
       <title>can you produce MU?</title>
-      <link>http://localhost:1313/can-you-produce-mu/</link>
+      <link>http://localhost:39939/can-you-produce-mu/</link>
       <pubDate>Tue, 11 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/can-you-produce-mu/</guid>
+      <guid>http://localhost:39939/can-you-produce-mu/</guid>
       <description>&lt;p&gt;This is a challenge from the book &lt;a href=&#34;https://www.amazon.com.br/Godel-Escher-Bach-Eternal-Golden/dp/0465026567&#34;&gt;Godel, Escher, Bach: An Eternal Golden Braid&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You are given the string &lt;em&gt;MI&lt;/em&gt; and you need, by following the rules, change it to &lt;em&gt;MU&lt;/em&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;rules&#34;&gt;Rules:&lt;/h4&gt;
@@ -609,15 +611,15 @@ Rule 3: MIUUI
     
     <item>
       <title>the strange man from the public library had an immense impact on my life</title>
-      <link>http://localhost:1313/the-strange-man-from-the-public-library-had-an-immense-impact-on-my-life/</link>
+      <link>http://localhost:39939/the-strange-man-from-the-public-library-had-an-immense-impact-on-my-life/</link>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-strange-man-from-the-public-library-had-an-immense-impact-on-my-life/</guid>
+      <guid>http://localhost:39939/the-strange-man-from-the-public-library-had-an-immense-impact-on-my-life/</guid>
       <description>&lt;p&gt;I was between 10 and 12 years old when I went to the public library to look for a book I had to read, and it was a pain!&lt;/p&gt;
 &lt;p&gt;“Reading a book? I could be playing, but I have to read.”&lt;/p&gt;
 &lt;p&gt;When I arrived at the public library, a man was recording a tv show about whales on his VCR, and somehow he noticed my frustration looking for a book.&lt;/p&gt;
 &lt;p&gt;I can’t remember his words, but he came to me with this book and said: “Read this one and come back when you finish it.”&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/asterix.jpeg&#34; alt=&#34;asterix&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:39939/assets/asterix.jpeg&#34; alt=&#34;asterix&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I think the illustrations in the book called my attention and I loved reading it.&lt;/p&gt;
 &lt;p&gt;The next day I went back, and he showed me other books, and so it started! I was always going to that public library and asking for more and more books!&lt;/p&gt;
 &lt;p&gt;The tedious books the school teacher asked us to read, I was reading them but waiting to read what really attracted me.&lt;/p&gt;
@@ -631,10 +633,10 @@ Rule 3: MIUUI
     
     <item>
       <title>pushin the pusher</title>
-      <link>http://localhost:1313/pushin-the-pusher/</link>
+      <link>http://localhost:39939/pushin-the-pusher/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pushin-the-pusher/</guid>
+      <guid>http://localhost:39939/pushin-the-pusher/</guid>
       <description>&lt;p&gt;My personality type is ENTP, also known as “The debater” so you might wonder how it is to live with a debater.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Taking a certain pleasure in being the underdog, ENTPs enjoy the mental exercise found in questioning the prevailing mode of thought, making them irreplaceable in reworking existing systems or shaking things up and pushing them in clever new directions. However, they’ll be miserable managing the day-to-day mechanics of actually implementing their suggestions.”&lt;/p&gt;
@@ -654,11 +656,11 @@ Rule 3: MIUUI
     
     <item>
       <title>indifference</title>
-      <link>http://localhost:1313/indifference/</link>
+      <link>http://localhost:39939/indifference/</link>
       <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/indifference/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/indifference.jpeg&#34; alt=&#34;Indifference&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:39939/indifference/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:39939/assets/indifference.jpeg&#34; alt=&#34;Indifference&#34;&gt;&lt;/p&gt;
 &lt;p&gt;One of the hardest things to do is to see someone else’s fault as a fault, like mine.&lt;/p&gt;
 &lt;p&gt;My own example is when I am driving and the driver in front does not use his indicators or uses them in the last second. This makes me feel uncomfortable for a few minutes and to imagine a conversation with that driver where I act as a super correct, responsible driver all the time until I make the next turn and forget to use the indicators.&lt;/p&gt;
 &lt;p&gt;Enters Marcus Aurelius:&lt;/p&gt;
@@ -696,11 +698,11 @@ Rule 3: MIUUI
     
     <item>
       <title>Stoicism and how I apply it to my daily life</title>
-      <link>http://localhost:1313/stoicism-and-how-i-apply-it-to-my-daily-life/</link>
+      <link>http://localhost:39939/stoicism-and-how-i-apply-it-to-my-daily-life/</link>
       <pubDate>Thu, 23 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/stoicism-and-how-i-apply-it-to-my-daily-life/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/assets/stoic.jpeg&#34; alt=&#34;stoic&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:39939/stoicism-and-how-i-apply-it-to-my-daily-life/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:39939/assets/stoic.jpeg&#34; alt=&#34;stoic&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I have learned about stoicism through this blog and I recommend you read it too.&lt;/p&gt;
 &lt;p&gt;Stoicism made a lot of sense to me because it is a practical philosophy and I admire practicality.&lt;/p&gt;
 &lt;p&gt;I have also read a small book on Buddhism, Sit Like a Buddha, which I recommend. However, finding a time and a place to practice meditation was always something hard for me but that is not an excuse.&lt;/p&gt;
@@ -736,10 +738,10 @@ Rule 3: MIUUI
     
     <item>
       <title>commit part of a file with Git</title>
-      <link>http://localhost:1313/commit-part-of-a-file-with-git/</link>
+      <link>http://localhost:39939/commit-part-of-a-file-with-git/</link>
       <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/commit-part-of-a-file-with-git/</guid>
+      <guid>http://localhost:39939/commit-part-of-a-file-with-git/</guid>
       <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt; git add -p file.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This command will show a list of changes in the file and show some options.&lt;/p&gt;
 &lt;p&gt;Exemple where I removed the gem bootstrap-sass and added the gem spring&lt;/p&gt;
@@ -788,10 +790,10 @@ Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
     
     <item>
       <title>pushed and popd</title>
-      <link>http://localhost:1313/pushed-and-popd/</link>
+      <link>http://localhost:39939/pushed-and-popd/</link>
       <pubDate>Wed, 03 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pushed-and-popd/</guid>
+      <guid>http://localhost:39939/pushed-and-popd/</guid>
       <description>&lt;p&gt;From any directory you type &lt;code&gt;pushd&lt;/code&gt; followed by the directory you want to go and &lt;code&gt;popd&lt;/code&gt; to go back&lt;/p&gt;
 &lt;p&gt;For instance: &lt;code&gt;pushd /etc&lt;/code&gt; will move you from your current directory to &lt;code&gt;/etc&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;popd&lt;/code&gt; will move you back to the previous directory.&lt;/p&gt;
@@ -802,10 +804,10 @@ Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]?
     
     <item>
       <title>golang pointers</title>
-      <link>http://localhost:1313/golang-pointers/</link>
+      <link>http://localhost:39939/golang-pointers/</link>
       <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/golang-pointers/</guid>
+      <guid>http://localhost:39939/golang-pointers/</guid>
       <description>&lt;p&gt;When you send a parameter to a function you are sending a copy of that variable, doesn&amp;rsquo;t matter what happen inside the funcion, the original variable won&amp;rsquo;t change.&lt;/p&gt;
 &lt;p&gt;In a variable declaration there is a memory space used to store information. The first byte is the address. Using &amp;amp; before a variable will return its memory address.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-golang&#34; data-lang=&#34;golang&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;package&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -875,10 +877,10 @@ integerPointer points to a variable with value: 31
     
     <item>
       <title>secure copy</title>
-      <link>http://localhost:1313/secure-copy/</link>
+      <link>http://localhost:39939/secure-copy/</link>
       <pubDate>Tue, 17 Mar 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/secure-copy/</guid>
+      <guid>http://localhost:39939/secure-copy/</guid>
       <description>&lt;p&gt;The scp command allows file transfers between hosts via ssh, offering the same level os security and authentication method.&lt;/p&gt;
 &lt;p&gt;Local -&amp;gt; Remote&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ scp file.txt user@host:/home/user/remote-directory/
@@ -908,10 +910,10 @@ integerPointer points to a variable with value: 31
     
     <item>
       <title>hard link soft link</title>
-      <link>http://localhost:1313/hard-link-soft-link/</link>
+      <link>http://localhost:39939/hard-link-soft-link/</link>
       <pubDate>Fri, 06 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hard-link-soft-link/</guid>
+      <guid>http://localhost:39939/hard-link-soft-link/</guid>
       <description>&lt;p&gt;The &lt;strong&gt;ln&lt;/strong&gt; command is responsible for creating links.&lt;/p&gt;
 &lt;p&gt;If no option is used a &lt;strong&gt;hard link&lt;/strong&gt; will be created:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ln file1 file2
@@ -942,10 +944,10 @@ lrwxrwxrwx 1 gerep users 5 07.02.2015 00:41 file2 -&amp;gt; file1
     
     <item>
       <title>git open</title>
-      <link>http://localhost:1313/git-open/</link>
+      <link>http://localhost:39939/git-open/</link>
       <pubDate>Sun, 12 Oct 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/git-open/</guid>
+      <guid>http://localhost:39939/git-open/</guid>
       <description>&lt;p&gt;The idea is simple.&lt;/p&gt;
 &lt;p&gt;You need to keep switching between your terminal and browser to check the repository (git/bitbucket/gitlab) you are working on and that&amp;rsquo;s why I have decided to automate that process.&lt;/p&gt;
 &lt;p&gt;Inside a git project, type:&lt;/p&gt;
@@ -961,10 +963,10 @@ lrwxrwxrwx 1 gerep users 5 07.02.2015 00:41 file2 -&amp;gt; file1
     
     <item>
       <title>tar</title>
-      <link>http://localhost:1313/tar/</link>
+      <link>http://localhost:39939/tar/</link>
       <pubDate>Wed, 21 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tar/</guid>
+      <guid>http://localhost:39939/tar/</guid>
       <description>&lt;p&gt;tar is not a compression tool, it simply creates and archive&lt;/p&gt;
 &lt;p&gt;Creating an archive:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;tar -cf archive.tar file.txt
