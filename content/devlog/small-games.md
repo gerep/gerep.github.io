@@ -46,5 +46,5 @@ I have a list of games I want to create. They have different mechanics. It will 
 - **Rhythm Dash** - Rhythm game: run between tracks, jump/make decisions based on the music beat. One song.
 - **Tower Mini-Defence** - 1 linear map, 3 upgradable towers. Ten enemy waves. Killing makes money.
 - **Snake Physics** - Snake with physics. Eat fruits to grow, but keep the body flexible.
-- **Colour Switcher** - Endless puzzle: a colored circle spins; the circle is made of blocks. Blobs are falling, and they change the colour of the block they touch. Score per streak.
+- **<a href="https://dangerep.itch.io/color-switcher" target="_blank">Colour Switcher</a>** - Endless puzzle: a colored circle spins; the circle is made of blocks. Blobs are falling, and they change the colour of the block they touch. Score per streak.
 
